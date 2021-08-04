@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background: #fbff12;
+}
+
+.header {
+  background: #212529;
+}
+.header__img {
+  width: 206px;
+}
+
+.main__title {
+  color: #0c0f0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 206px;
+}
+
+.p {
+  color: #0c0f0a;
+}
+
+.categories__title {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.carousel {
+  overflow: scroll;
+  padding-left: 30px;
+  width: 100%;
+  position: relative;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+.cuadrado_img {
+  margin: 32px 247px 81px 630px;
+  height: 100px;
+}
+
+.cuadrado_1 {
+  color: #0c0f0a;
+}
+
+.cuadrado_2 {
+  color: #0c0f0a;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 13px;
+  height: 33px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  width: 42%;
+}
+
+.cuadrado_3 {
+  margin: 32px 17px 53px 534px;
+  font-size: 14px;
+}
+
+.triangulo_1 {
+  margin: 32px 17px 53px 311px;
+  font-size: 14px;
+}
+
+.circulo_1 {
+  margin: 32px 17px 53px 311px;
+  font-size: 14px;
+}
+
+.circulo_2 {
+  margin: 32px 17px 53px 0px;
+  font-size: 14px;
+}
+
+.button {
+  margin: 5px 0px 0px 370px;
+  font-size: 14px;
+}
