@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +12,31 @@
     <header class="header">
         <img class="header__img"
             src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5a01bac8-4923-4797-84d5-154be1fb9973%2F2.png?table=block&id=7a999682-3e76-4b95-96e8-359b748a8898&spaceId=13328bea-cc89-4468-bfca-ebe605b88e65&width=1190&userId=514977c9-36d0-4e2d-886a-4c4d0a56974e&cache=v2" alt="logo">
+
+            <nav class="header__nav">
+                <section class="header__nav-links">
+                    <a class="header__links-btn" href="./index.html"> <i class="fas fa-home fcolor"></i>HOME</a>
+                    <div>
+                        <a class="header__links-btn" href="./figuras.html">1Figuras</a>
+                        <a class="header__links-btn" href="./descuentos.html">2Descuentos</a>
+                        <a class="header__links-btn" href="./promedio.html">3Promedio</a>
+                        <a class="header__links-btn" href="./pre.html">4Ingresos</a>
+                        <a class="header__links-btn" href="https://daniel-diaz-r.netlify.app/">Contáctame</a>
+                    </div>
+                    </section>
+                </nav>
+
     </header>
     <header>
     <h1 class="main__title">
-        Figuras geometricas
+        Figuras geométricas
     </h1>
     </header>
 
     <section>
-        <h2 class="h2">Calcula el área y perimetro de un cuadrado</h2>
+        <h2 class="h2">
+            Calcula el área y perímetro de un cuadrado
+            </h2>
         <img class="cuadrado_img" src="https://cienciamatematica.com/wp-content/uploads/cuadrado-2.png" alt="cuadrado">
         <form action="">
             <label class="cuadrado_1" for="InputCuadrado">
@@ -36,7 +53,7 @@
     </section>
     <section>
         <h2 class="h2">
-            Calcula el Área y el Perímetro de un Triangulo
+            Calcula el Área y el Perímetro de un Triángulo
         </h2>
         <img class="cuadrado_img" src="https://static.vecteezy.com/system/resources/previews/000/582/015/non_2x/triangle-icon-vector-illustration.jpg" alt="">
         <form action="">
@@ -46,47 +63,48 @@
             <label for="LadoT2">Escribe cuanto mide el lado 2:</label>
             <input class="cuadrado_2" type="number" id="LadoT2">
             <br>
-            <label for="BaseT">Escribe la base del triangulo: </label>
+            <label for="BaseT">Escribe la base del triángulo: </label>
             <input class="cuadrado_2" type="number" id="BaseT">
             <br>
-            <label for="AlturaT">Escribe la altura del triangulo:</label>
+            <label for="AlturaT">Escribe la altura del triángulo:</label>
             <input class="cuadrado_2" type="number" id="AlturaT">
             <button class="triangulo_1" type="button" onclick="calcularAreaTriangulo()"/>
-            Calcula el Área del Triangulo
+            Calcula el Área del Triángulo
         </button>
             
             <button type="button" onclick="calcularPerimetroTriangulo()">Calcula el Perímetro del Triangulo</button>
         </form>
     </section>
     <section>
-        <h2 class="h2">Calcula diametro, perímetro y área de un circulo</h2>
+        <h2 class="h2">Calcula diámetro, perímetro y área de un circulo</h2>
         <img class="cuadrado_img" src="https://www.urbipedia.org/images/thumb/c/cf/Disc_Plain_black.png/200px-Disc_Plain_black.png" alt="">
         <form action="">
             <label for="Radio">Escribe cuanto mide el radio del circulo:</label>
             <input class="cuadrado_2" type="number" id="Radio">
             <br>
-            <button class="circulo_1" type="button" onclick="calcularDiametroCirculo()">Calcular el Diametro del Circulo</button>
+            <button class="circulo_1" type="button" onclick="calcularDiametroCirculo()">Calcular el Diámetro del Circulo</button>
             <button class="circulo_2" type="button" onclick="calcularPerimetroCirculo()" >Calcula el Perímetro del Circulo</button>
             <button type="button" onclick="calcularAreaCirculo()">Calcula el Área del Circulo</button>
         </form>
     </section>
 
     <section>
-        <h2 class="h2">Calcular la altura de un triangulo isosceles</h2>
+        <h2 class="h2">Calcular la altura de un triángulo isósceles</h2>
         <img class="cuadrado_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/1200px-Triangle.Isosceles.svg.png" alt="">
         <form>
-            <label for="lado-triangulo-1">Lado del triangulo #1</label>
+            <label for="lado-triangulo-1">Lado del triángulo #1</label>
             <input class="cuadrado_2" type="number" id="lado-triangulo-1" />
             <br>
-            <label for="lado-triangulo-2">Lado del triangulo #2</label>
+            <label for="lado-triangulo-2">Lado del triángulo #2</label>
             <input class="cuadrado_2" type="number" id="lado-triangulo-2" />
             <br>
-            <label for="base-triangulo">Base del triangulo</label>
+            <label for="base-triangulo">Base del triángulo</label>
             <input class="cuadrado_2" type="number" id="base-triangulo" />
             <br>
             <button class="button" id="altura-triangulo" type="button">Calcular Altura</button>
         </form>
     </section>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="./figuras.js"></script>
 </body>
 </html>

@@ -50,6 +50,20 @@ function areaT(baseT, alturaT){
     return (baseT * alturaT) / 2;
 
 }
+function calcularAreaCuadrado() {
+    //const inputCuadrado = document.getElementById("InputCuadrado");
+    //const priceValue = inputCuadrado.value;
+  
+    //const inputDiscount = document.getElementById("InputDiscount");
+   // const discountValue = inputDiscount.value;
+  
+    //const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue);
+  
+    const resultP = document.getElementById("ResultP");
+    resultP.innerText = "El precio con descuento son: $" +  (baseT * alturaT) / 2 + Number(lado1) + Number(ladoT2) + Number(baseT);;
+  
+}
+
 
 areaT(3, 4); 
 //const perimetroTriangulo = lado1 + lado2 + base;
@@ -124,6 +138,20 @@ function calcularPerimetroCuadrado(){
 
     const perimetro = perimetroCuadrado(ladoCuadrado);
     alert(perimetro);
+    
+        //const inputCuadrado = document.getElementById("InputCuadrado");
+        //const priceValue = inputCuadrado.value;
+      
+    //const inputDiscount = document.getElementById("InputDiscount");
+    //const discountValue = inputDiscount.value;
+      
+        //const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue);
+      
+        const resultP = document.getElementById("ResultP");
+        resultP.innerText = "seria: " + Number(lado1) + Number(ladoT2) + Number(baseT);
+      
+    
+    
 
 }
 

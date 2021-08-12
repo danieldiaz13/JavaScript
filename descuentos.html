@@ -1,0 +1,114 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Porcentajes y Descuentos
+        </h1>
+        <p>2</p>
+    </header>
+
+    <section>
+        <h2>
+            Calcula el precio a pagar de tus produtos con descuentos</h2>
+
+            <form>
+                <!--<label for="InputPrice">Escribe el precio de tu produto:</label>
+                <input id="InputPrice" type="number">
+
+                <input id="inputPrice" type="number" placeholder="Escribe el precio de tu producto">
+
+                <!--<label for="InputDiscount">Escribe el descuentosde tu produto:</label>
+                <input id="InputDiscount" type="number">
+
+                <input id="inputDiscount" type="number" placeholder="Escribe el descuento de tu producto">
+
+                <label for="InputCoupon">Escribe el cupón de descuento para tu producto:</label>
+                <input id="InputCoupon" type="text" />
+                
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular el precio con descuento
+                </button>
+
+                <p id="ResultP"></p>
+            </form>
+    </section>
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="calcular el descuento de un precio">
+    <link rel="stylesheet" href="./descuento.css">
+
+    <title>descuento</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5a01bac8-4923-4797-84d5-154be1fb9973%2F2.png?table=block&amp;id=7a999682-3e76-4b95-96e8-359b748a8898&amp;spaceId=13328bea-cc89-4468-bfca-ebe605b88e65&amp;width=1190&amp;userId=514977c9-36d0-4e2d-886a-4c4d0a56974e&amp;cache=v2" alt="logo">
+        <nav class="header__nav">
+            <section class="header__nav-links">
+                <a class="header__links-btn" href="./index.html"> <i class="fas fa-home fcolor"></i>HOME</a>
+                <div>
+                    <a class="header__links-btn" href="./figuras.html">1Figuras</a>
+                    <a class="header__links-btn" href="./descuentos.html">2Descuentos</a>
+                    <a class="header__links-btn" href="./promedio.html">3Promedio</a>
+                    <a class="header__links-btn" href="./pre.html">4Ingresos</a>
+                    <a class="header__links-btn" href="https://daniel-diaz-r.netlify.app/">Contáctame</a>
+                </div>
+                </section>
+            </nav>
+
+    </header>
+
+    <h1 class="h1">Calcular descuentos</h1>
+    <section class="cuadro">
+        <form class="from">
+            <input class="price" id="inputPrice" type="number" placeholder="Escribe el precio de tu producto">
+            <input class="price" id="inputDiscount" type="number" placeholder="Escribe el descuento de tu producto">
+            <div>
+                <label for="cupons">Cupones: </label>
+                <select name="Cupons" id="cupons">
+                <option value="0">No tengo</option>
+                <option value="15">15%</option>
+                <option value="25">25%</option>
+                <option value="50">50%</option>
+                </select>
+            </div>
+            <button class="c" type="button" onclick="onClickButtonPriceDiscount()">Calcular</button>
+        </form>
+    </section>
+
+    <section class="texto">
+        <article class="texto">
+            <div class="texto">
+                <h3 class="texto">Precio a pagar</h3>
+                <h3 id="displayDiscount">$0000</h3>
+            </div>
+            <div class="texto">
+                <h3>precio original</h3>
+                <h3 id="displayPrice" style="text-decoration: line-through;">$0000</h3>
+            </div>
+        </article>
+    </section>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
