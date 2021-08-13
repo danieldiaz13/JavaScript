@@ -71,3 +71,12 @@ body {
   outline: none;
   margin: 13px -91px 0px 286px;
 }
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  font-weight: bold;
+  font-size: 18px;
+}
